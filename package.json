@@ -1,0 +1,35 @@
+{
+  "name": "chatting_system",
+  "version": "1.0.0",
+  "description": "a chatting system to connect a  chatbot with a humna user",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./dist/server.js",
+    "dev": "nodemon ./src/server.ts",
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chatting",
+    "users",
+    "chatbot"
+  ],
+  "author": "Popoola Daramola",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/node": "^18.6.4",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}

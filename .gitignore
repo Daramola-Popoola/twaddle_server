@@ -1,0 +1,5 @@
+/node_modules
+
+run.http
+
+#save the api key as buffert and use toString() method to convert it to a regular number
